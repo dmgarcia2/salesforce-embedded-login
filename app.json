@@ -1,0 +1,6 @@
+{
+  "name": "Node.js Login",
+  "description": "Salesforce login PoC",
+  "repository": "https://github.com/lucgilr/SFDCToken",
+  "keywords": ["node", "js", "salesforce"]
+}

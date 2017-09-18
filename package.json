@@ -1,0 +1,33 @@
+{
+  "name": "node-js-sample",
+  "version": "0.0.2",
+  "description": "Salesforce External Identity PoC - Emebedded Login",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "body-parser": "~1.15.2",
+    "hbs": "~4.0.0",
+    "querystring": "0.2.0",
+    "request": "2.81.0"
+  },
+  "engines": {
+    "node": "6.11.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucgilr/SFDCToken.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Lucia Gil Roman <lucia.gilroman@cognizant.com>",
+  "contributors": [
+    "David Martin Garcia <david.martingarcia@cognizant.com>"
+  ],
+  "license": "MIT"
+}
