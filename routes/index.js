@@ -92,7 +92,7 @@ router.get('/_callback', function(req, res, next) {
 				}
 
 				var html = '<html><head>' +
-						   '<meta name="salesforce-community" content="https://' + communityUrl + '">' +
+						   '<meta name="salesforce-community" content="' + communityUrl + '">' +
 						   '<meta name="salesforce-mode" content="' + process.env.SALESFORCE_MODE + '-callback">' +
 						   '<meta name="salesforce-server-callback" content="true">' +
 						   '<meta name="salesforce-server-response" content="' + new Buffer(getResponse).toString('base64') + '">' +
