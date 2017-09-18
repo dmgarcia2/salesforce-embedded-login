@@ -99,7 +99,7 @@ router.get('/_callback', function(req, res, next) {
 						   '<meta name="salesforce-server-starturl" content="' + startURL + '">' +
 						   '<meta name="salesforce-target" content="#salesforce-login">'+
 						   '<meta name="salesforce-allowed-domains" content="' + process.env.SALESFORCE_HEROKUAPP_URL + '">' +
-						   '<script src="https://' + communityUrl + '/servlet/servlet.loginwidgetcontroller?type=javascript_widget&min=false" async defer></script>' +
+						   '<script src="' + communityUrl + '/servlet/servlet.loginwidgetcontroller?type=javascript_widget&min=false" async defer></script>' +
 						   '</head><body></body></html>';
 				console.log('CALLBACK - html: ' + html);
 
